@@ -1,0 +1,51 @@
+{
+  "title": "Save AI",
+  "output_path": "records/audio-video/2026/09/save-ai_20260919-065636/index.html",
+  "metadata": {
+    "source_type": "link",
+    "source_url": "https://www.rednote.com/discovery/item/6a3cdb740000000006030e97?xsec_token=ABmtybtzfz-o_Kw6g_bBgctDuT_WbPumBDzh92OkWmlNA=&xsec_source=pc_collect",
+    "detected_language": "zh",
+    "target_language": "English",
+    "content_style": "note",
+    "model": "gemini-3.6-flash",
+    "usage": {
+      "transcription": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "candidates_token_count": 856,
+        "total_token_count": 266750
+      },
+      "generation": {
+        "model": "openai/gpt-4o-mini",
+        "completion_tokens": 479,
+        "prompt_tokens": 1202,
+        "total_tokens": 1681,
+        "completion_tokens_details": {
+          "audio_tokens": 0,
+          "reasoning_tokens": 0,
+          "image_tokens": 0
+        },
+        "prompt_tokens_details": {
+          "audio_tokens": 0,
+          "cached_tokens": 0,
+          "cache_write_tokens": 0,
+          "video_tokens": 0
+        },
+        "cost": 0.0004677,
+        "is_byok": false,
+        "cost_details": {
+          "upstream_inference_cost": 0.0004677,
+          "upstream_inference_prompt_cost": 0.0001803,
+          "upstream_inference_completions_cost": 0.0002874
+        }
+      }
+    },
+    "created_at": "2026-09-19T06:56:36.053313+00:00",
+    "processing_mode": "audio_video"
+  },
+  "files": {
+    "records/audio-video/2026/09/save-ai_20260919-065636/index.html": "689599cdbafd0274fbe519dffd13d730ef3a1175fb36b2b610cd4610d9f282a0",
+    "records/audio-video/2026/09/save-ai_20260919-065636/diagram.svg": "78c2d31f11220962bdbbc31bd292d3751fa505d1f36ebb1a74ce4d0974e2aa65"
+  },
+  "publication_commit_sha": null
+}

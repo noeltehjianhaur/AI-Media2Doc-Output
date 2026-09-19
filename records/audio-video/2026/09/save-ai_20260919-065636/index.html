@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Save AI</title><style>body{max-width:900px;margin:32px auto;padding:0 20px;font:16px/1.6 sans-serif;color:#182231}h1,h2{line-height:1.2}time{font-family:monospace;color:#52647a}img{max-width:100%}pre{white-space:pre-wrap}</style></head>
+<body><h1>Save AI</h1><ul><li>Created UTC: 2026-09-19T06:56:36.053313+00:00</li><li>Source mode: audio_video</li><li>Source URL: https://www.rednote.com/discovery/item/6a3cdb740000000006030e97?xsec_token=ABmtybtzfz-o_Kw6g_bBgctDuT_WbPumBDzh92OkWmlNA=&amp;xsec_source=pc_collect</li><li>Detected Language: zh</li><li>Target Language: English</li><li>Content Style: note</li><li>Model: gemini-3.6-flash</li></ul><h2>Summary</h2><pre># Using Claude Code Efficiently
+## High Costs of API Usage [00:00-00:22]
+### Key Insight A [00:00-00:22]
+- The API bill for using Claude Code can be unexpectedly high.
+- A significant portion of the charges arises from excessive context.
+- The AI re-reads logs, files, and command outputs that often contain redundant information.
+  
+
+
+### Key Insight B [00:00-00:22]
+- The money is not spent on the AI model but on the unnecessary context.
+- Paying for every single word adds to the overall costs.
+
+## Introduction to Headroom Tool [00:22-00:48]
+### Functionality Overview [00:22-00:48]
+- Headroom is an open-source tool on GitHub with 49,000 stars.
+- It compresses content before sending to a large model.
+- In official testing, 65,000 tokens were reduced to just over 5,000 without altering the answer.
+
+
+
+### Testing Effectiveness [00:22-00:48]
+- The compression process does not change any actual response content.
+- This showcases the efficiency of the tool in reducing token usage.
+
+## Cost-Effective and Secure Deployment [00:48-01:08]
+### Deployment Advantages [00:48-01:08]
+- Headroom can be deployed at almost zero cost with a single command.
+- It can take over Claude Code or run as a proxy without changing the code.
+
+
+
+### Data Privacy Benefits [00:48-01:08]
+- The original text remains on the local machine.
+- Users can access complete data at any time, ensuring local privacy and security.
+
+## Compression Efficiency Comparison [01:08-01:27]
+### Compression Savings [01:08-01:27]
+- The savings from compression vary based on the content type.
+- Structured data like logs and code can see reductions of 80 to 90 percent.
+- Unstructured chat content typically realizes only 20 to 30 percent savings.
+
+
+
+### Conclusion on Effectiveness [01:08-01:27]
+- While the tool is beneficial, the extent of savings depends on the data being compressed.
+- The approach taken by Headroom is definitely a step in the right direction.</pre>
+<h2>Visual transcript</h2><ol><li><time>00:00</time> 天天用 Claude Code 写东西，月底一看 API 账单是真肉疼。后来才搞明白，钱根本不是花在模型上，是花在那一堆没用的上下文上——AI 每次都要把整堆日志、文件、命令回显读一遍，里面一大半是废话，你为每个字都在付钱。 headroom：AI 编程省九成开销 创作者阐述使用 Claude Code 时 API 账单昂贵的原因在于冗余上下文</li><li><time>00:22</time> GitHub 上有个四万九千星的开源工具叫 headroom，专门干这个：在内容送进大模型之前先压一遍。官方实测一次故障排查，六万五千 token 压到五千出头，答案一个字没变。 headroom：大模型发送前内容压缩 介绍 GitHub 开源工具 headroom 及其压缩 Token 的原理与官方测试效果</li><li><time>00:48</time> 最爽的是几乎零成本，一条命令就接管你的 Claude Code，或者起个代理，代码一个字都不用改。原文还留在你本地，要看完整的随时调回来，数据也不出你电脑。 零成本部署 / 本地数据安全 讲解 headroom 的部署方式（单条命令接管/代理）与本地隐私安全优势</li><li><time>01:08</time> 当然也别神化它，能省多少看你压的是啥——日志、代码这种结构化的能砍八九成，纯聊天也就两三成。但方向是真没错。 结构化内容省80%-90% 总结 headroom 对结构化日志/代码与非结构化聊天的不同省钱效果</li></ol><img src="diagram.svg" alt="Process flowchart">
+<h2>Transcript</h2><pre>Using Claude Code every day to write things, looking at the API bill at the end of the month is really painful. I only realized later that the money isn&#x27;t actually being spent on the model, but on that pile of useless context—every time, the AI has to re-read the entire stack of logs, files, and command outputs, most of which is useless fluff, and you&#x27;re paying for every single word.
+There is an open-source tool on GitHub with 49,000 stars called headroom, specifically designed for this: compressing content before sending it to a large model. In an official test during a troubleshooting case, 65,000 tokens were compressed down to just over 5,000, and the answer didn&#x27;t change by a single word.
+The best part is that it&#x27;s practically zero-cost: a single command takes over your Claude Code, or spins up a proxy, without changing a single word of code. The original text stays on your local machine, so you can pull up the full version whenever you want, and your data never leaves your computer.
+Of course, don&#x27;t overhype it either. How much it saves depends on what you&#x27;re compressing — structured data like logs and code can be cut by 80 to 90 percent, while pure chat is only around 20 to 30 percent. But the direction is definitely right.</pre></body></html>
