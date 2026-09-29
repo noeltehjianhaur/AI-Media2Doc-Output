@@ -1,0 +1,32 @@
+{
+  "title": "Return",
+  "output_path": "records/audio-video/2026/09/return_20260929-032658/index.html",
+  "metadata": {
+    "source_type": "link",
+    "source_url": "https://www.rednote.com/discovery/item/6ab2664200000000330098e4?xsec_token=ABy2gHugPKEtylSDycX8koiQYX4ePCTHVAJo0B0TnzhXY=&xsec_source=pc_collect",
+    "detected_language": "en",
+    "target_language": "English",
+    "content_style": "note",
+    "model": "gemini-3.6-flash",
+    "usage": {
+      "transcription": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "candidates_token_count": 67,
+        "total_token_count": 113030
+      },
+      "generation": {
+        "model": "gemini-3.6-flash",
+        "completion_tokens": 321,
+        "prompt_tokens": 488,
+        "total_tokens": 2817
+      }
+    },
+    "created_at": "2026-09-29T03:26:58.762531+00:00",
+    "processing_mode": "audio_video"
+  },
+  "files": {
+    "records/audio-video/2026/09/return_20260929-032658/index.html": "0ffa97a058830ef7ad3f2c86e8513cde6c420f5e8dbdb4c59667309d9910f382"
+  },
+  "publication_commit_sha": null
+}
