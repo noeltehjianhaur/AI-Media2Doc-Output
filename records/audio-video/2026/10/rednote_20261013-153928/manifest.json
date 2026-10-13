@@ -1,0 +1,32 @@
+{
+  "title": "RedNote",
+  "output_path": "records/audio-video/2026/10/rednote_20261013-153928/index.html",
+  "metadata": {
+    "source_type": "link",
+    "source_url": "https://www.rednote.com/discovery/item/6ac76e38000000001303d144?xsec_token=AByqo4Z381v8sBqNaJwke5qFpbnZG0QecqDaygb9A9mto=&xsec_source=pc_collect",
+    "detected_language": "en",
+    "target_language": "English",
+    "content_style": "note",
+    "model": "gemini-3.6-flash",
+    "usage": {
+      "transcription": {
+        "provider": "gemini",
+        "model": "gemini-3.6-flash",
+        "candidates_token_count": 153,
+        "total_token_count": 114842
+      },
+      "generation": {
+        "model": "gemini-3.6-flash",
+        "completion_tokens": 244,
+        "prompt_tokens": 532,
+        "total_tokens": 2211
+      }
+    },
+    "created_at": "2026-10-13T15:39:28.132621+00:00",
+    "processing_mode": "audio_video"
+  },
+  "files": {
+    "records/audio-video/2026/10/rednote_20261013-153928/index.html": "68895f124983547bd51aff4d6a65c298ea28a181ef1f4799ccd12950a0dd31c9"
+  },
+  "publication_commit_sha": null
+}
